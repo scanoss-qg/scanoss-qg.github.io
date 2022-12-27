@@ -25,7 +25,7 @@ In this page you will find information to
   * What is SCA
   * Why is it important
   * …
-* [Core Concepts](core/readme.md)
+* [Core Concepts](Core/readme.md)
   * Architecture
   * Engine
     * Data Layers?
