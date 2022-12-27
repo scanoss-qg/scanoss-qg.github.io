@@ -25,7 +25,7 @@ In this page you will find information to
   * What is SCA
   * Why is it important
   * …
-* [Core Concepts](Core/readme.md)
+* [Core Concepts](Core/README.md)
   * Architecture
   * Engine
     * Data Layers?
@@ -33,7 +33,7 @@ In this page you will find information to
   * LDB
   * Miner
   * API
-* [Getting Started](../Getting_Started/README.md)
+* [Getting Started](Getting_Started/README.md)
   * Installation
   * Usage (Videos Bruno)
 * Operations Manual
