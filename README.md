@@ -16,16 +16,16 @@ In this page you will find information to
 * Overview
   * What is SCANOSS?
   * Why SCANOSS?
-  * [Getting Started](https://argo-cd.readthedocs.io/en/stable/#getting-started)
-    * [Quick Start](https://argo-cd.readthedocs.io/en/stable/#quick-start)
-  * [How it works](https://argo-cd.readthedocs.io/en/stable/#how-it-works)
-  * [Features](https://argo-cd.readthedocs.io/en/stable/#features)
-  * A word on Plagiarism (Julian)
+  * [Getting Started](Getting_Started/README.md)
+    * [Quick Start]()
+  * [How it works]()
+  * [Features]()
+  * A word on Plagiarism by Julian Coccia
 * Understand The Basics    
   * What is SCA
   * Why is it important
   * …
-* [Core Concepts](core/readme.md)
+* [Core Concepts](Core/README.md)
   * Architecture
   * Engine
     * Data Layers?
@@ -33,9 +33,9 @@ In this page you will find information to
   * LDB
   * Miner
   * API
-* [Getting Started](../Getting_Started/README.md)
-  * Installation
-  * Usage (Videos Bruno)
+* [Getting Started](Getting_Started/README.md)
+  * [Installation](Installation/README.md)
+  * [Usage](Usage/README.md)
 * Operations Manual
   * Architectural Overview
   * Installation
