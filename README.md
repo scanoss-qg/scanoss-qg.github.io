@@ -37,8 +37,8 @@ In this page you will find information to
   * [Installation](Installation/README.md)
   * [Usage](Usage/README.md)
 * Operations Manual
-  * Architectural Overview
-  * Installation
+  * [Architectural overview](Getting_Started/README.md)
+  * [Installation](Getting_Started/README.md)
   * Ingress Configuration
   * Security
   * Cluster Bootstrapping
