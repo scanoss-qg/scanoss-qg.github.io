@@ -1,26 +1,13 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <noscript>
-      <meta http-equiv="refresh" content="0; url=https://github.com/scanoss-qg">
-    </noscript>
-    <!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
-    <script type="text/javascript">
-      var url = "https://github.com/scanoss-qg" + window.location.hash;
-      if (typeof IE_fix != "undefined") {
-        document.write("Redirecting...");
-        var referLink = document.createElement("a");
-        referLink.href = url;
-        document.body.appendChild(referLink);
-        referLink.click();
-      } else {
-        window.location.replace(url);
-      }
-    </script>
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <a href="https://github.com/scanoss-qg">Follow this link if you are not redirected automatically.</a>
-  </body>
-</html>
+<form action="{{ page.url | relative_url }}">
+  <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
+
+<div id="tipue_search_content"></div>
+
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
