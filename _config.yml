@@ -1,9 +1,3 @@
-theme: jekyll-theme-slate
 title: SCANOSS Docs
 description: January 2023
 baseurl: /Docs
-tipue_search:
-  include:
-    pages: true
-  exclude:
-    files: [search.html]
