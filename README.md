@@ -29,8 +29,8 @@ In this page you will find information to
   * Architecture
   * [Engine](https://github.com/scanoss/engine/blob/master/README.md)
     * Data Layers?
-    * [HPSM](https://github.com/scanoss/HPSM/blob/master/README.md)
-  * [LDB](https://raw.githubusercontent.com/scanoss/ldb/master/README.md)
+    * [HPSM](https://github.com/scanoss/HPSM/blob/main/README.md)
+  * [LDB](https://github.com/scanoss/ldb/blob/master/README.md))
   * [Minr](https://github.com/scanoss/minr/blob/master/README.md)
   * [API](https://github.com/scanoss/API/blob/master/README.md)
 * [Getting Started](Getting_Started/README.md)
@@ -57,7 +57,10 @@ In this page you will find information to
 * User Guide
   * [TBC] (Alejandro)
   * API Definition
-  * Clientes
+  * Client applications
+    * [scanoss-py](https://github.com/scanoss/scanoss-py/blob/master/README.md)
+    * [scanoss-js]((https://github.com/scanoss/scanoss-js/blob/master/README.md))
+    * [Scanoss Audit Workbench](https://github.com/scanoss/audit-workbench/blob/master/README.md)
   * Plataforma
   * Support/Troubleshooting
 * Developer Guide
