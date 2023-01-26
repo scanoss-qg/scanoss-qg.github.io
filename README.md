@@ -27,12 +27,12 @@ In this page you will find information to
   * …
 * [Core Concepts](Core/README.md)
   * Architecture
-  * Engine
+  * [Engine](https://github.com/scanoss/engine/blob/master/README.md)
     * Data Layers?
-    * HPSM?
-  * LDB
-  * Miner
-  * API
+    * [HPSM](https://github.com/scanoss/HPSM/blob/master/README.md)
+  * [LDB](https://raw.githubusercontent.com/scanoss/ldb/master/README.md)
+  * [Minr](https://github.com/scanoss/minr/blob/master/README.md)
+  * [API](https://github.com/scanoss/API/blob/master/README.md)
 * [Getting Started](Getting_Started/README.md)
   * [Installation](Installation/README.md)
   * [Usage](Usage/README.md)
@@ -43,7 +43,7 @@ In this page you will find information to
   * Security
   * Cluster Bootstrapping
   * High Availability
-  * Git Webhook Configuration
+  * [Git Webhook Configuration](https://github.com/scanoss/webhook/blob/master/README.md)
   * Resource Health
   * Resource Actions
   * Veryfing installation Testing
