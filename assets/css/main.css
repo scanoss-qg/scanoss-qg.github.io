@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #6366f1;
+    --dark: #1e293b;
+    --violet: #863dff;
+    --yellow: #ffac0a;
+    --orange: #ff4b23;
+    --blue: #1a294d;
+    --dark-blue: #10172a;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    @apply px-6 py-3 rounded-sm focus:outline-none focus:ring focus:ring-primary;
+  }
+
+  input[type].input-error {
+    @apply border-red-500;
+  }
+
+  .btn {
+    @apply px-8 py-2 rounded;
+  }
+
+  .btn.btn-small {
+    @apply px-6 py-1 rounded;
+  }
+
+  .btn-install {
+    @apply px-4 py-2 rounded;
+  }
+
+  .btn-install.btn-primary {
+    @apply text-white bg-primary;
+  }
+
+  .btn.btn-primary {
+    @apply text-white bg-primary;
+  }
+
+  .main-grid {
+    @apply grid grid-cols-4 gap-x-2 lg:grid-cols-12 lg:gap-x-4;
+  }
+
+  .text-3xl {
+    letter-spacing: -0.01em;
+  }
+
+  .text-4xl {
+    letter-spacing: -0.02em;
+  }
+
+  .text-5xl {
+    letter-spacing: -0.03em;
+  }
+
+  .text-6xl {
+    letter-spacing: -0.04em;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold md:text-4xl lg:text-5xl;
+  }
+
+  .section-description {
+    @apply text-base text-gray-500 md:text-lg lg:text-xl;
+  }
+
+  .title-tmb {
+    @apply font-mono text-4xl font-bold md:text-5xl lg:text-6xl text-gradient gradient-yellow;
+  }
+
+  .sub-tmb {
+    @apply mt-4 font-mono text-lg text-gray-400 md:text-xl;
+  }
+
+  .box-card {
+    @apply flex flex-col items-center;
+  }
+
+  .title-card {
+    @apply mt-2 text-xl tracking-tight text-center text-dark lg:mt-8;
+  }
+
+  .desc-card {
+    @apply mt-4 tracking-tight text-center text-gray-500 lg:text-gray-400;
+  }
+
+  .in-the-box-card {
+    @apply p-6 space-y-4 bg-white rounded-lg shadow-md col-span-full md:p-12 md:col-auto;
+  }
+
+  .in-the-box-title-card {
+    @apply mt-4 text-2xl font-bold md:text-3xl;
+  }
+
+  .in-the-box-description {
+    @apply text-base text-gray-500 sm:text-lg md:text-xl lg:text-gray-400;
+  }
+}
+
+@layer utilities {
+  .tracking-5xl {
+    letter-spacing: -0.03em;
+  }
+
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-violet;
+  }
+
+  .bg-gradient-dark {
+    @apply bg-gradient-to-r from-dark-blue to-blue;
+  }
+
+  .text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r;
+  }
+
+  .gradient-yellow {
+    @apply from-yellow to-orange;
+  }
+
+  .gradient-primary {
+    @apply from-primary to-violet;
+  }
+}
+
+.halloween {
+  display: none !important;
+}
