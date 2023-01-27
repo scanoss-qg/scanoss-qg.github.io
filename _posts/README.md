@@ -1,9 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
----
 # ![enter image description here](https://scanoss.com/_nuxt/img/product_header_frankie.a9e054b.png)
 
 # Welcome to the SCANOSS Wiki
